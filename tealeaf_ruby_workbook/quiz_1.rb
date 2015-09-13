@@ -100,7 +100,5 @@ puts flintstones.inspect
 flintstones = ["Fred", "Barney", "Wilma", "Betty", "Pebbles", "BamBam"]
 #Turn this array into a hash where the names are the keys and the values are the positions in the array.
 index_array = (0..(flintstones.length) - 1).to_a
-puts index_array.inspect
 flintstones = Hash[flintstones.zip(index_array)]
-#flintstones = Hash(flintstones)
 puts flintstones.inspect
