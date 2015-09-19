@@ -129,5 +129,5 @@ def bar(param = "no")
 end
 #What would be the output of this code:
 
-puts bar(foo)
+bar(foo)
 # no
